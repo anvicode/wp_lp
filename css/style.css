@@ -27,6 +27,11 @@ p {
 .fs {
 	background-image: url(../img/bg/main_bg.png);
 	color: #fff;
+	height: 800px;
+}
+
+.fs-main {
+	text-align: center;
 }
 
 .logo-img-title {
@@ -36,7 +41,53 @@ p {
 }
 
 .title {
+	margin: 21px 0;
 	font-size: 41px;
 	line-height: 41px;
 	font-weight: bold;
+	color: #f9bf3b;
+	text-align: center;
+}
+
+.title-big {
+	font-size: 80px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 80px;
+}
+
+.fs-main-text {
+	text-align: center;
+	font-size: 21px;
+	line-height: 28px;
+}
+
+.btn-fs {
+	display: inline-block;
+	width: 313px;
+	height: 72px;
+	color: #fff;
+	cursor: pointer;
+	margin: 95px auto;
+	/* align-items: center; */
+	/* text-align: center; */
+	/* font-size: 21px; */
+	/* line-height: 24px; */
+	border: none;
+	text-transform: uppercase;
+	padding: 24px 14px;
+	background: linear-gradient(0deg, #2798b9 0%, #3ab6da 100%);
+}
+
+.fs-more {
+	font-size: 15px;
+	cursor: pointer;
+	text-transform: uppercase;
+	color: rgba(255, 255, 255, 0.7);
+	margin-bottom: 5px;
+}
+
+.fs-more-arrow {
+	cursor: pointer;
 }
