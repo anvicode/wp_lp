@@ -1,0 +1,42 @@
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	margin: 0;
+}
+
+p {
+	margin: 0;
+}
+
+.container {
+	width: 1140px;
+	margin: 0 auto;
+}
+
+.logo {
+	text-align: center;
+}
+
+.logo > img {
+	margin: 38px 0 10px;
+}
+
+.fs {
+	background-image: url(../img/bg/main_bg.png);
+	color: #fff;
+}
+
+.logo-img-title {
+	font-size: 15px;
+	line-height: 24px;
+	text-transform: uppercase;
+}
+
+.title {
+	font-size: 41px;
+	line-height: 41px;
+	font-weight: bold;
+}
