@@ -198,3 +198,22 @@ p {
 .intensive-card-img {
 	margin-bottom: 26px;
 }
+
+/* Optimization */
+
+.optimization {
+	margin-top: 47px;
+	min-height: 502px;
+	background-image: url(../img/bg/woman_bg.png);
+	background-repeat: no-repeat;
+}
+
+.optimization-block {
+	display: flex;
+	margin-left: auto;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+	width: 750px;
+	height: 360px;
+}
