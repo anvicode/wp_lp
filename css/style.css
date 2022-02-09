@@ -8,6 +8,12 @@ body {
 	font-family: "Roboto", sans-serif;
 }
 
+h1,
+h2,
+h3 {
+	margin: 0;
+}
+
 p {
 	margin: 0;
 }
@@ -28,7 +34,9 @@ p {
 .fs {
 	background-image: url(../img/bg/main_bg.png);
 	color: #fff;
-	height: 800px;
+	min-height: 800px;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .fs-main {
@@ -57,6 +65,29 @@ p {
 	text-align: center;
 	text-transform: uppercase;
 	line-height: 80px;
+	position: relative;
+}
+
+.title-big-line::after {
+	content: "";
+	width: 292px;
+	height: 2px;
+	background: #ffffff;
+	position: absolute;
+	transform: translate(-35%);
+	left: 10%;
+	bottom: 38px;
+}
+
+.title-big-line::before {
+	content: "";
+	width: 292px;
+	height: 2px;
+	background: #ffffff;
+	position: absolute;
+	transform: translate(35%);
+	right: 10%;
+	bottom: 38px;
 }
 
 .fs-main-text {
@@ -84,6 +115,11 @@ p {
 	background: linear-gradient(0deg, #2798b9 0%, #3ab6da 100%);
 }
 
+.btn-fs:hover {
+	background: rgb(255, 255, 255);
+	color: #2798b9;
+}
+
 .fs-more {
 	font-size: 15px;
 	font-weight: 100;
@@ -95,10 +131,70 @@ p {
 
 .fs-more-arrow {
 	cursor: pointer;
+	padding-bottom: 40px;
 }
 
 .text-highlighter {
 	text-transform: uppercase;
 	color: #f9bf3b;
 	font-weight: 700;
+}
+
+/*	intensive  */
+
+.intensive {
+	background: #efefef;
+}
+
+.intensive-title,
+.intensive-subtitle {
+	text-align: center;
+}
+
+.intensive-title {
+	position: relative;
+	padding: 88px 0 44px;
+	font-weight: 400;
+	font-size: 30px;
+	text-transform: uppercase;
+	color: #252525;
+}
+
+.intensive-title-line::after {
+	content: "";
+	width: 220px;
+	height: 7px;
+	background: #f9bf3b;
+	position: absolute;
+	transform: translate(-50%);
+	left: 50%;
+	bottom: 15px;
+}
+
+.intensive-subtitle {
+	padding-bottom: 44px;
+	font-weight: 400;
+	font-size: 23px;
+	color: #252525;
+}
+
+.intensive-card {
+	max-width: 370px;
+	text-align: center;
+}
+
+.intensive-block-flex {
+	display: flex;
+	padding-bottom: 75px;
+	justify-content: center;
+}
+
+.intensive-card-text {
+	font-weight: 300;
+	font-size: 15px;
+	line-height: 21px;
+}
+
+.intensive-card-img {
+	margin-bottom: 26px;
 }
