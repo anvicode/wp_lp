@@ -206,14 +206,34 @@ p {
 	min-height: 502px;
 	background-image: url(../img/bg/woman_bg.png);
 	background-repeat: no-repeat;
+	background-position: -16%;
 }
 
 .optimization-block {
+	margin-top: 48px;
 	display: flex;
 	margin-left: auto;
 	flex-direction: column;
 	justify-content: flex-end;
 	align-items: center;
 	width: 750px;
-	height: 360px;
+	height: 430px;
+}
+
+.optimization-title {
+	font-weight: 900;
+	font-size: 30px;
+	text-transform: uppercase;
+	color: #299cbd;
+}
+
+.optimization-text {
+	margin-bottom: 10px;
+	font-weight: 300;
+	font-size: 17px;
+	line-height: 27px;
+}
+
+.optimization-text-bold {
+	font-weight: 700;
 }
