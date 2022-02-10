@@ -318,8 +318,8 @@ p {
 }
 
 .btn-gift:hover {
-	background: rgb(255, 255, 255);
-	color: #2798b9;
+	background: #a7d2ed;
+	color: #fff;
 }
 
 .gift-img {
@@ -338,7 +338,7 @@ p {
 
 .webinar {
 	background-color: #fff;
-	height: 512px;
+	height: 550px;
 }
 
 .webinar-flex {
@@ -372,4 +372,43 @@ p {
 	font-size: 23px;
 	padding-bottom: 53px;
 	color: #4a4a4a;
+}
+
+/* Footer */
+
+.footer {
+	background-color: #252525;
+	height: 170px;
+	color: #888888;
+}
+
+.footer-wrapper > a {
+	font-weight: 300;
+	color: #888888;
+	margin-right: 10px;
+}
+
+.footer-wrapper > a:hover {
+	color: #fff;
+}
+
+.footer-line::after {
+	content: "";
+	height: 15px;
+	width: 1px;
+	background: #888888;
+	position: absolute;
+	transform: translate(-50%);
+	right: 54.4%;
+	bottom: 22px;
+}
+
+.footer-flex {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-top: 69px;
+	font-weight: 300;
 }
