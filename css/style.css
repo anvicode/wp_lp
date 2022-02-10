@@ -237,3 +237,56 @@ p {
 .optimization-text-bold {
 	font-weight: 700;
 }
+
+/* Finish */
+
+.finish-learn {
+	background-image: url(../img/bg/second_bg.png);
+	height: 447px;
+}
+
+.finish-learn-title {
+	padding: 86px 0 63px;
+	text-align: center;
+	font-size: 30px;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #efefef;
+}
+.circle {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 118px;
+	height: 118px;
+	background: #b4e2ff;
+	border-radius: 50%;
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+/* .finish-learn-card-img {
+	position: absolute;
+	right: 20%;
+	top: 50%;
+	transform: translateY(-50%);
+} */
+
+.finish-learn-flex {
+	display: flex;
+	justify-content: space-between;
+}
+
+.finish-learn-card-flex {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 230px;
+	padding-bottom: 69px;
+}
+
+.finish-learn-text {
+	color: #efefef;
+	text-align: center;
+}
