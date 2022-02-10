@@ -290,3 +290,46 @@ p {
 	color: #efefef;
 	text-align: center;
 }
+
+/* Gift */
+
+.gift {
+	height: 631px;
+	background-color: #efefef;
+}
+
+.gift-flex {
+	display: flex;
+	flex-direction: column;
+	justify-self: center;
+	align-items: center;
+}
+
+.btn-gift {
+	display: inline-block;
+	font-size: 21px;
+	color: #fff;
+	cursor: pointer;
+	margin: 60px auto 30px;
+	border: none;
+	text-transform: uppercase;
+	padding: 24px 14px;
+	background: linear-gradient(0deg, #2798b9 0%, #3ab6da 100%);
+}
+
+.btn-gift:hover {
+	background: rgb(255, 255, 255);
+	color: #2798b9;
+}
+
+.gift-img {
+	padding: 88px 0 45px;
+}
+
+.gift-text {
+	font-weight: 300;
+	font-size: 30px;
+	line-height: 43px;
+	text-align: center;
+	color: #252525;
+}
